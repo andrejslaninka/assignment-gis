@@ -1,0 +1,66 @@
+@import 'colors';
+
+#search-form {
+    width: 100%;
+  
+    .hashtag {
+      position: absolute;
+      bottom: 7rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+  
+    .search-filter {
+      background: $search-filter-bg;
+    }
+  
+    .filter-option > ul {
+      display:table;
+      margin:0 auto;
+  
+      li {
+        padding: 0 4rem;
+        font-size: 1.2rem;
+        font-weight: 300;
+  
+      }
+  
+      label {
+        color: $white
+      }
+  
+      li:hover {
+        background-color: $search-filter-hover;
+      }
+  
+      .active {
+        background-color: $black;
+        a {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+#map {
+    min-height: 500px;
+    height: calc(100vh - 64px);
+}
+.btn-add-location {
+    position: absolute;
+    top: -.1rem;
+    left: .5rem;
+}
+
+#map .leaflet-popup-content-wrapper, #main-map .leaflet-popup-tip {
+    background: transparent;
+    box-shadow: none;
+}
+.side-nav {
+  z-index: 1001;
+}
+
+.collection .collection-item.avatar {
+  min-height: auto;
+}

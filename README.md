@@ -20,8 +20,8 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fill in (either in English, or in Slovak):
 
-**Application description**: `<fill in>`
+**Application description**: `Zažime Slovensko - Vysoké Tatry - sprievodca pre vysokohorských turistov`
 
-**Data source**: `<fill in>`
+**Data source**: `http://wiki.freemap.sk/FileDownload - OSM extrakt Slovenska `
 
-**Technologies used**: `<fill in>`
+**Technologies used**: `php, Laravel 5.6`
